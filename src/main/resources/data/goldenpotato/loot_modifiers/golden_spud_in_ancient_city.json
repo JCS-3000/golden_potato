@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_items",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/ancient_city"
+    },
+    {
+      "condition": "forge:config",
+      "modid": "goldenpotato",
+      "key": "lootGoldenSpudAncientCities"
+    }
+  ],
+  "items": [
+    { "item": "goldenpotato:golden_spud", "weight": 5 },
+    { "item": "goldenpotato:enchanted_golden_spud", "weight": 5 }
+  ]
+}

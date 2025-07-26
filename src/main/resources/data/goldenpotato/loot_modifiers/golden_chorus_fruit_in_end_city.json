@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_items",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/end_city_treasure"
+    },
+    {
+      "condition": "forge:config",
+      "modid": "goldenpotato",
+      "key": "lootGoldenChorusFruitEndCities"
+    }
+  ],
+  "items": [
+    { "item": "goldenpotato:golden_chorus_fruit", "weight": 5 },
+    { "item": "goldenpotato:enchanted_golden_chorus_fruit", "weight": 5 }
+  ]
+}

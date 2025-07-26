@@ -1,0 +1,17 @@
+{ "parent": "goldenpotato:root",
+  "criteria": {
+    "golden_potato_skill_issue": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [["golden_potato_skill_issue"]],
+  "display": {
+    "icon": { "item": "goldenpotato:golden_potato" },
+    "title": { "text": "Sounds Like a Skill Issue" },
+    "description": { "text": "Go back to your death 10 times with the golden potato" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
+}

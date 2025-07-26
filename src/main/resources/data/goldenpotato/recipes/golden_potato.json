@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "goldenpotato"
+    },
+    {
+      "type": "forge:config",
+      "modid": "goldenpotato",
+      "key": "enableGoldenPotato"
+    }
+  ],
+  "pattern": [
+    "GGG",
+    "GPG",
+    "GGG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "P": { "item": "minecraft:potato" }
+  },
+  "result": { "item": "goldenpotato:golden_potato" }
+}

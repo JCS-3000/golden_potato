@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:config",
+      "modid": "goldenpotato",
+      "key": "enableEnchantedGoldenSpud"
+    }
+  ],
+  "pattern": [
+    "GeG",
+    "GPG",
+    "GGG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_block" },
+    "E": { "item": "minecraft:emerald_block" },
+    "P": { "item": "minecraft:poisonous_potato" }
+  },
+  "result": { "item": "goldenpotato:enchanted_golden_spud" }
+}

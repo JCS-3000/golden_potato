@@ -1,0 +1,9 @@
+{
+  "potatos_1": { "category": "players", "sounds": [{ "name": "goldenpotato:potatos_1" }] },
+  "potatos_2": { "category": "players", "sounds": [{ "name": "goldenpotato:potatos_2" }] },
+  "potatos_3": { "category": "players", "sounds": [{ "name": "goldenpotato:potatos_3" }] },
+  "potatos_4": { "category": "players", "sounds": [{ "name": "goldenpotato:potatos_4" }] },
+  "potatos_5": { "category": "players", "sounds": [{ "name": "goldenpotato:potatos_5" }] },
+  "potatos_6": { "category": "players", "sounds": [{ "name": "goldenpotato:potatos_6" }] },
+  "potatos_7": { "category": "players", "sounds": [{ "name": "goldenpotato:potatos_7" }] }
+}

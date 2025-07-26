@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_items",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_plains_house"
+    },
+    {
+      "condition": "forge:config",
+      "modid": "goldenpotato",
+      "key": "lootGoldenPotatoVillages"
+    }
+  ],
+  "items": [
+    { "item": "goldenpotato:golden_potato", "weight": 5 },
+    { "item": "goldenpotato:enchanted_golden_potato", "weight": 5 }
+  ]
+}

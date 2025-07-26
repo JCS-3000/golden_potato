@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[47,)" # For Forge 1.20.1 use 47.x.x
+license="MIT"
+
+[[mods]]
+modId="goldenpotato"
+version="1.0.0"
+displayName="Golden Potato"
+authors="JCS"
+description='''
+Adds special golden potatoes, spuds, and chorus fruit with teleportation effects and customization.
+'''

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:config",
+      "modid": "goldenpotato",
+      "key": "enableGoldenChorusFruit"
+    }
+  ],
+  "pattern": [
+    "GGG",
+    "GCG",
+    "GGG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "C": { "item": "minecraft:chorus_fruit" }
+  },
+  "result": { "item": "goldenpotato:golden_chorus_fruit" }
+}

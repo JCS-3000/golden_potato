@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "got_golden_potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["goldenpotato:golden_potato", "goldenpotato:enchanted_golden_potato"] }
+        ]
+      }
+    }
+  },
+  "requirements": [["got_golden_potato"]],
+  "display": {
+    "icon": { "item": "goldenpotato:golden_potato" },
+    "title": { "text": "Golden Potato" },
+    "description": { "text": "Acquire a golden potato." },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  }
+}
